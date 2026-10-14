@@ -13,6 +13,9 @@ parser=argparse.ArgumentParser(description=__doc__)
 parser.add_argument('step',choices=steps)
 parser.add_argument('--dry-run',action='store_true')
 args=parser.parse_args()
+if not args.dry_run:
+ for output_dir in [ANALYSIS/'tables',ROOT/'N2O_ML_paper/results']:
+  output_dir.mkdir(parents=True,exist_ok=True)
 for command in steps[args.step]:
  script=Path(command[0]);script=script if script.is_absolute() else ANALYSIS/script
  assert script.is_file(),script
