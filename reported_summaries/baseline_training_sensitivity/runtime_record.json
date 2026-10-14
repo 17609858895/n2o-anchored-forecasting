@@ -1,0 +1,11 @@
+{
+  "runtime_scope": "Internal implementation validation; do not copy this process record into the scientific manuscript.",
+  "environment": "D:/Anaconda/python.exe, Python3.12.3; isolated project PYTHONPATH packages torch2.13.0+cu126; NVIDIA RTX4060 Laptop 8GB; CUDA12.6; cuDNN9.10.2; NumPy1.26.4/pandas2.2.2/sklearn1.5.1.",
+  "precision": "Float32; TF32 disabled; deterministic algorithms enabled; paired CPU initialization and independent batch permutation generator.",
+  "fault": "cuDNN GRU forward/backward, predictions and saving complete, followed by a native Windows shutdown exit 0xC0000409. Reproduced in a minimal GRU program; no training Python exception. Native CUDA recurrent backend exits normally but is roughly ten times slower than fused cuDNN on this host.",
+  "failed_workaround": "CUDA synchronization, explicit garbage collection/empty_cache and os._exit did not prevent the faulty DLL detach.",
+  "selected_workaround": "Only after main() returns normally, synchronize CUDA, confirm GetProcessId(GetCurrentProcess()) equals os.getpid(), flush stdout/stderr and use kernel32.TerminateProcess for this Python worker to bypass DLL teardown. Python errors and unfinished work do not reach this success branch. This is explicit abrupt process termination, not a claim of normal library cleanup.",
+  "validation": "CPU/cuDNN-GPU forward/loss/gradient comparison passed at tolerances1e-5 with dropout disabled; independent repeated short fits produced bitwise-identical saved weights, validation predictions and selected-validation RMSE. Final per-configuration test metrics, arrays, completion, source/data hashes and output artifact hashes are verified in a separate CPU process.",
+  "evidence_files": ["runtime_numerical_validation.json", "runtime_repeat_validation.json", "runtime_inprocess_rng_validation.json", "independent_verification.json", "independent_metric_recalculation.csv"],
+  "hardware_fault_affects_scientific_claims": "No such conclusion is assumed. Scientific claims use only the successfully saved and independently verified arrays; any verification failure blocks use of that configuration."
+}

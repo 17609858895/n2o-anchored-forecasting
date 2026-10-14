@@ -8,3 +8,6 @@ N2O_ML_paper/code/analysis/tables/
 N2O_ML_paper/results/
 N2O_ML_paper/figures/
 sensitivity/results/
+sensitivity/figures/
+sensitivity/qa/
+generated_outputs/

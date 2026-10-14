@@ -1,0 +1,43 @@
+{
+  "site": "Avedore",
+  "target_units": "mg N L-1",
+  "measured_signal": "dissolved N2O concentration",
+  "selection": "minimum original-scale validation RMSE; no test-based selection",
+  "inner_validation": {
+    "n_origins": 4283,
+    "n_sequences": 4283,
+    "origin_start": "2022-12-12 00:00:00+01:00",
+    "origin_end": "2023-06-11 17:00:00+02:00"
+  },
+  "outer_refit_epochs": 60,
+  "reported_endpoints": [
+    "epoch12",
+    "validation-selected epoch",
+    "fixed epoch60"
+  ],
+  "target_scale": "eligible fit target/residual NumPy std(ddof=0) in all variants and both formulations",
+  "centering": "legacy: zero; centered/raw_anchor: eligible fit target/residual mean",
+  "input_statistics": "fit-origin means and pandas std(ddof=1)+1e-6 only; causal ffill limit6; fill remaining normalized gaps with zero",
+  "paired_comparison": "same CPU initial weights and independent same-seed batch-order generator",
+  "variant_definitions": {
+    "legacy": "legacy zero-centered target/residual with log1p(100c) current concentration input",
+    "centered": "mean-centered target/residual with log1p(100c) current concentration input",
+    "raw_anchor": "mean-centered target/residual with raw current concentration replacing log1p(100c)"
+  },
+  "raw_input": "replace yl0 by raw current c; no additional channel",
+  "source_hashes": {
+    "N2O_ML_paper\\data\\avedore\\aved_raw.csv.gz": "7fdb279ab6d09372d4574b26ed14b20c29876a01b4c560e2560687f0e98a4006",
+    "最新版\\code\\analysis\\baseline_training_sensitivity.py": "adf0463f1dab89daac5645a88897b6ac3601986ed4fa794b35364ea2effccf2c",
+    "最新版\\code\\analysis\\reference\\aved_replication.py": "80d4aa1feeadd416acb2ebf2f05a5bfaded4659451faf32f718a8c0d19c65c75",
+    "最新版\\code\\analysis\\reference\\bench2.py": "3991bf60f534ef4c18b3c0dc2e35514ce19303e02e60d95e2065bafe0282dc1e",
+    "最新版\\code\\analysis\\reference\\deep.py": "36cffcbf7d0dba2dfdb90064df8ebb429eae7dfd47aabe33388fea36502f77ad",
+    "最新版\\code\\analysis\\reference\\stats_joint.py": "4a733570b9d71249adb59c992378e5971df63bc25e170637e99f33d0967ddcb7",
+    "最新版\\code\\analysis\\reference\\prep.py": "25066389761b35091954d7e2b62821eefe4ff38e0a1990d1eff3ce998ab27ce2",
+    "N2O_ML_paper\\code\\analysis\\aved_replication.py": "80d4aa1feeadd416acb2ebf2f05a5bfaded4659451faf32f718a8c0d19c65c75",
+    "N2O_ML_paper\\code\\analysis\\bench2.py": "3991bf60f534ef4c18b3c0dc2e35514ce19303e02e60d95e2065bafe0282dc1e",
+    "N2O_ML_paper\\code\\analysis\\deep.py": "36cffcbf7d0dba2dfdb90064df8ebb429eae7dfd47aabe33388fea36502f77ad",
+    "N2O_ML_paper\\code\\analysis\\stats_joint.py": "4a733570b9d71249adb59c992378e5971df63bc25e170637e99f33d0967ddcb7",
+    "N2O_ML_paper\\code\\analysis\\prep.py": "25066389761b35091954d7e2b62821eefe4ff38e0a1990d1eff3ce998ab27ce2"
+  },
+  "design_sha256": "f9b444c4951567e0cc02b00dfb3b0325554e664c1827eb77fc3d161fbc98b14e"
+}

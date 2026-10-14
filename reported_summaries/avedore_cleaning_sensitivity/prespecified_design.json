@@ -1,0 +1,54 @@
+{
+  "cases": {
+    "baseline": {
+      "negative": "zero",
+      "extreme": "exclude",
+      "quality": "ignore"
+    },
+    "negative_missing": {
+      "negative": "missing",
+      "extreme": "exclude",
+      "quality": "ignore"
+    },
+    "keep_extreme": {
+      "negative": "zero",
+      "extreme": "retain",
+      "quality": "ignore"
+    },
+    "source_quality": {
+      "negative": "zero",
+      "extreme": "exclude",
+      "quality": "per_signal_good"
+    },
+    "quality_negative_missing": {
+      "negative": "missing",
+      "extreme": "exclude",
+      "quality": "per_signal_good"
+    }
+  },
+  "models": [
+    "Persistence",
+    "LightGBM",
+    "Anchored LightGBM",
+    "EG-MoE",
+    "GRU",
+    "GRU-A",
+    "Transformer",
+    "Transformer-A"
+  ],
+  "seed": 42,
+  "epochs": 12,
+  "random_repeats": 5,
+  "reference_sha256": {
+    "aved_replication.py": "80d4aa1feeadd416acb2ebf2f05a5bfaded4659451faf32f718a8c0d19c65c75",
+    "bench2.py": "3991bf60f534ef4c18b3c0dc2e35514ce19303e02e60d95e2065bafe0282dc1e",
+    "deep.py": "36cffcbf7d0dba2dfdb90064df8ebb429eae7dfd47aabe33388fea36502f77ad",
+    "stats_joint.py": "4a733570b9d71249adb59c992378e5971df63bc25e170637e99f33d0967ddcb7",
+    "prep.py": "25066389761b35091954d7e2b62821eefe4ff38e0a1990d1eff3ce998ab27ce2"
+  },
+  "source_key": "1cbd277533ff08532129e912bb64ada6eb146ebc86dc2baa1fbb79388d1577d17fdb279ab6d09372d4574b26ed14b20c29876a01b4c560e2560687f0e98a4006a570bcb30006a25e5a34fd4bc868011f91e08267fa3698298cc5eecdc48fb822",
+  "method": "independent refit for every prespecified cleaning rule",
+  "nominal_split": "2023-06-12 00:00:00+02:00",
+  "training_buffer_hours": 6,
+  "source_quality_rule": "each signal quality == 0"
+}

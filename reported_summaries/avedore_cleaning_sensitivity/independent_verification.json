@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "independent_verification": "Stored predictions independently recomputed with NumPy sums/means; no use of fitting metrics function.",
+  "own_metric_rows": 40,
+  "common_metric_rows": 80,
+  "validation_rows": 60,
+  "common_test_origins": 7581,
+  "maximum_numeric_discrepancy": 9.947598300641403e-14,
+  "all_reference_module_hashes_unchanged": true,
+  "all_rules_have_five_random_repeats": true,
+  "all_evaluated_network_fits_have_twelve_epochs": true,
+  "all_own_and_common_target_scopes_preserve_positive_GRU_and_Transformer_anchoring_R2_gains": true,
+  "not_universal_model_improvement": "Anchored LightGBM worsens under combined quality/negative-missing rule.",
+  "neural_scope_limit": "Only GRU and Transformer, one network seed, concentration target. LSTM/TCN and aeration-weighted index were not refitted here.",
+  "n2o_negatives_with_good_source_quality_fraction": 0.9661304186148585,
+  "raw_input_files_unchanged": {
+    "N2O_ML_paper\\data\\avedore\\aved_raw.csv.gz": "7fdb279ab6d09372d4574b26ed14b20c29876a01b4c560e2560687f0e98a4006",
+    "N2O_ML_paper\\data\\avedore\\provenance\\mendeley_v1_original.csv.gz": "a570bcb30006a25e5a34fd4bc868011f91e08267fa3698298cc5eecdc48fb822"
+  }
+}

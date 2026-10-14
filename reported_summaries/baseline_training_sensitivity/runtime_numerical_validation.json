@@ -1,0 +1,10 @@
+{
+  "seed": 42,
+  "mode": "training, dropout disabled for numerical kernel comparison, TF32 disabled, identical initial weights and inputs",
+  "forward_max_abs_difference": 3.1888484954833984e-06,
+  "loss_CPU": 1.0226458311080933,
+  "loss_CUDA": 1.0226459503173828,
+  "gradient_max_abs_difference": 3.259629011154175e-09,
+  "forward_tolerance": 1e-05,
+  "gradient_tolerance": 1e-05
+}

@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "complete": true,
+  "site": "Hofen",
+  "verified_configs": 32,
+  "verified_prediction_sets": 96,
+  "verified_pairs": 16,
+  "targets_and_persistence_reconstructed_from_raw": true,
+  "six_hour_purges_verified": true,
+  "target_minimum_observed_hours": 5,
+  "target_imputation": false,
+  "validation_only_checkpoint_selection": true,
+  "paired_initialization_inputs_and_batch_orders": true,
+  "source_data_script_and_saved_artifact_hashes_match": true,
+  "test_tuning_performed": false,
+  "recorded_source_path_alias": {
+    "\u6700\u65b0\u7248": "\u6700\u65b0\u7248"
+  }
+}

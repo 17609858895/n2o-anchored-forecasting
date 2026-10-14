@@ -15,3 +15,5 @@ Pillow
 openpyxl
 jupyter
 PyMuPDF
+threadpoolctl
+pypdf

@@ -1,0 +1,6 @@
+{
+  "repeat_prediction_bitwise_equal": true,
+  "repeat_checkpoint_bitwise_equal": true,
+  "repeat_validation_rmse_equal": true,
+  "precision": "float32, TF32 disabled"
+}

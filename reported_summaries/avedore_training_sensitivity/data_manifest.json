@@ -1,0 +1,76 @@
+{
+  "raw_records": 831557,
+  "n2o_readings": 508801,
+  "removed_saturated": 28,
+  "negative_share": 0.19726970009271763,
+  "hours": 17544,
+  "valid_n2o_hours": 17144,
+  "site": "Avedore",
+  "measured_signal": "dissolved N2O concentration in tank 1",
+  "target": "mean next 6 hourly dissolved N2O concentrations, at least 5 valid hours",
+  "target_units": "mg N L-1",
+  "timezone": "Europe/Copenhagen",
+  "inner_boundary": "2022-12-12 00:00:00+01:00",
+  "outer_boundary": "2023-06-12 00:00:00+02:00",
+  "purge_hours": 6,
+  "n_train": 8397,
+  "n_test": 8702,
+  "n_tabular_inputs": 75,
+  "n_sequence_inputs": 24,
+  "sequence_hours": 48,
+  "sequence_columns": [
+    "Air_blower",
+    "Valve1",
+    "NH4",
+    "NO3",
+    "DO1",
+    "DOsp1",
+    "Phase1",
+    "Air1",
+    "SS1",
+    "T1",
+    "Valve2",
+    "DO2",
+    "Phase2",
+    "Air2",
+    "SS2",
+    "T2",
+    "InletTank",
+    "OutletTank",
+    "PO4",
+    "Q_in",
+    "StormMode",
+    "hour_sin",
+    "hour_cos",
+    "yl0"
+  ],
+  "segments": {
+    "checkpoint_train": {
+      "n_origins": 4108,
+      "n_sequences": 4061,
+      "origin_start": "2022-06-12 00:00:00+02:00",
+      "origin_end": "2022-12-11 17:00:00+01:00"
+    },
+    "validation": {
+      "n_origins": 4283,
+      "n_sequences": 4283,
+      "origin_start": "2022-12-12 00:00:00+01:00",
+      "origin_end": "2023-06-11 17:00:00+02:00"
+    },
+    "outer_train": {
+      "n_origins": 8397,
+      "n_sequences": 8350,
+      "origin_start": "2022-06-12 00:00:00+02:00",
+      "origin_end": "2023-06-11 17:00:00+02:00"
+    },
+    "test": {
+      "n_origins": 8702,
+      "n_sequences": 8702,
+      "origin_start": "2023-06-12 00:00:00+02:00",
+      "origin_end": "2024-06-11 18:00:00+02:00"
+    }
+  },
+  "missing_training_anchors": 19,
+  "missing_test_anchors": 4,
+  "feature_hash": "a8c2d0d3cec30980d235e8ad5810e6e43a3cab5ae32b8f355df2c3b7a712778d"
+}
