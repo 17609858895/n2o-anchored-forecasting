@@ -1,0 +1,17 @@
+numpy
+pandas
+scipy
+scikit-learn
+lightgbm
+xgboost
+catboost
+torch
+shap
+econml
+umap-learn
+optuna
+matplotlib
+Pillow
+openpyxl
+jupyter
+PyMuPDF

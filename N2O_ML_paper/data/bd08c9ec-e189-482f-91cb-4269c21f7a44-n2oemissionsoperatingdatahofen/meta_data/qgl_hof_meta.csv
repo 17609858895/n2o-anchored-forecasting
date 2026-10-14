@@ -1,0 +1,40 @@
+,0,1,2
+id,1,2,3
+_row_content,Sensor description,Extra information,Unit
+_time,Time,-,Datetime
+_551_5134, Stellung Trübwasserschieber 3 NKB,-,%
+_210_1301, Temp.-Messung Zulauf,-,°C
+_f_t_mass_s21_z3,Luftdurchfluss S2.1 / Z3,-,Nm3/h
+_f_nh4_s22_z1_cal,Ammonium S2.2 / Z1,-,mgN/l
+_312_3123, O2-Messung BB2.2 Zone 3,-,mg/l
+_312_4901, Rücklaufschlammpumpe 2.1,-,%
+_312_3112, O2-Messung BB2.1 Zone 2,-,mg/l
+_312_3122, O2-Messung BB2.2 Zone 2,-,mg/l
+_f_n2o_emissions_h6,N2O Emissionen S2.2 / Z3 (H6),-,kgN/h
+_f_no3_s21_z1_cal,Nitrat S2.1 / Z1,-,mgN/l
+_f_t_mass_s22_z2,Luftdurchfluss S2.2 / Z2,-,Nm3/h
+_f_n2o_emissions_h3,N2O Emissionen S2.1 / Z3 (H3),-,kgN/h
+_f_t_mass_s21_z2,Luftdurchfluss S2.1 / Z2,-,Nm3/h
+_312_3111, O2-Messung BB2.1 Zone 1,-,mg/l
+_312_4902, Rücklaufschlammpumpe 2.2,-,%
+_f_n2o_emissions_h5,N2O Emissionen S2.2 / Z1 (H5),-,kgN/h
+_f_n2o_emissions_h4,N2O Emissionen S2.2 / Z2 (H4),-,kgN/h
+_f_nh4_s21_z1_cal,Ammonium S2.1 / Z1,-,mgN/l
+_f_aote_h3,alphaOTE S2.1 / Z3 (H3) RH/CO2 corr,-,%
+_f_aote_h6,alphaOTE S2.2 / Z3 (H6) RH/CO2 corr,-,%
+_f_t_mass_s22_z1,Luftdurchfluss S2.2 / Z1,-,Nm3/h
+_f_cl_s22_z1_cal,Chlorid S2.2 / Z1,-,mg/l
+_f_t_mass_s22_z3,Luftdurchfluss S2.2 / Z3,-,Nm3/h
+_312_3121, O2-Messung BB2.2 Zone 1,-,mg/l
+_f_aote_h4,alphaOTE S2.2 / Z2 (H4) RH/CO2 corr,-,%
+_312_3113, O2-Messung BB2.1 Zone 3,-,mg/l
+_322_1101, Mengenmessung Auslauf NKB2,-,l/s
+_210_3201, pH-Messung Zulauf,-,pH
+_f_n2o_emissions_h1,N2O Emissionen S2.1 / Z1 (H1),-,kgN/h
+_f_t_mass_s21_z1,Luftdurchfluss S2.1 / Z1,-,Nm3/h
+_f_no3_s22_z1_cal,Nitrat S2.2 / Z1,-,mgN/l
+_f_aote_h1,alphaOTE S2.1 / Z1 (H1) RH/CO2 corr,-,%
+_f_aote_h2,alphaOTE S2.1 / Z2 (H2) RH/CO2 corr,-,%
+_f_aote_h5,alphaOTE S2.2 / Z1 (H5) RH/CO2 corr,-,%
+_f_cl_s21_z1_cal,Chlorid S2.1 / Z1,-,mg/l
+_f_n2o_emissions_h2,N2O Emissionen S2.1 / Z2 (H2),-,kgN/h

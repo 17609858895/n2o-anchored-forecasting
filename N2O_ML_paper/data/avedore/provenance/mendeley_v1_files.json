@@ -1,0 +1,19 @@
+[
+  {
+    "filename": "aved_raw.csv",
+    "id": "d52528bb-4d94-4f65-b0d3-cee517755e78",
+    "content_details": {
+      "id": "67fda85b-6dec-4623-8024-bea0bfe29145",
+      "sha256_hash": "d1cf007ddd79fb7924ac0e06612d3fb57a5c5027bc7cc24069eae06bc6e8bd07",
+      "content_type": "text/csv",
+      "size": 235599676,
+      "created_date": "2024-07-05T07:15:50.718Z",
+      "download_url": "https://data.mendeley.com/public-files/datasets/xmbxhscgpr/files/d52528bb-4d94-4f65-b0d3-cee517755e78/file_downloaded",
+      "view_url": "https://data.mendeley.com/public-files/datasets/xmbxhscgpr/files/d52528bb-4d94-4f65-b0d3-cee517755e78/file_viewed",
+      "download_expiry_time": "2126-10-12T03:51:58.818448919Z"
+    },
+    "size": 235599676,
+    "last_modified_date": "2024-07-05T07:15:50.718Z",
+    "status": "COMPLETED"
+  }
+]

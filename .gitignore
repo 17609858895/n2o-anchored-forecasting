@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+N2O_ML_paper/code/analysis/*.pkl
+N2O_ML_paper/code/analysis/figdata/
+N2O_ML_paper/code/analysis/tables/
+N2O_ML_paper/results/
+N2O_ML_paper/figures/
+sensitivity/results/
